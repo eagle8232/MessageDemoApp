@@ -55,6 +55,6 @@ struct HomeView: View {
     
     func sendMessage() {
         messageVM.sendMessage(text: currentText)
-        currentText = ""
+        currentText = "" /// - After sending message, we need to empty it
     }
 }

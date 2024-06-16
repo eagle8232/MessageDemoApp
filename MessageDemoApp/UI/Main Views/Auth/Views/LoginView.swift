@@ -26,7 +26,7 @@ struct LoginView: View {
             .padding()
             
             if let error {
-                showError(error: error) {
+                showErrorNotificationView(error: error) {
                     self.error = nil
                 }
             }

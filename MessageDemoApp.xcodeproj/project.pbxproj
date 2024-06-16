@@ -73,12 +73,18 @@
 		A82DAEB52C1F037A00E18665 /* CustomAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82DAEB42C1F037A00E18665 /* CustomAlertView.swift */; };
 		A82DAEB62C1F037A00E18665 /* CustomAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82DAEB42C1F037A00E18665 /* CustomAlertView.swift */; };
 		A82DAEB72C1F037A00E18665 /* CustomAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82DAEB42C1F037A00E18665 /* CustomAlertView.swift */; };
-		A82DAEBA2C1F038D00E18665 /* NotificationType.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82DAEB92C1F038D00E18665 /* NotificationType.swift */; };
-		A82DAEBB2C1F038D00E18665 /* NotificationType.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82DAEB92C1F038D00E18665 /* NotificationType.swift */; };
-		A82DAEBC2C1F038D00E18665 /* NotificationType.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82DAEB92C1F038D00E18665 /* NotificationType.swift */; };
+		A82DAEBA2C1F038D00E18665 /* AlertType.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82DAEB92C1F038D00E18665 /* AlertType.swift */; };
+		A82DAEBB2C1F038D00E18665 /* AlertType.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82DAEB92C1F038D00E18665 /* AlertType.swift */; };
+		A82DAEBC2C1F038D00E18665 /* AlertType.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82DAEB92C1F038D00E18665 /* AlertType.swift */; };
 		A82DAEC22C1F04E300E18665 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82DAEC12C1F04E300E18665 /* Constant.swift */; };
 		A82DAEC32C1F04E300E18665 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82DAEC12C1F04E300E18665 /* Constant.swift */; };
 		A82DAEC42C1F04E300E18665 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82DAEC12C1F04E300E18665 /* Constant.swift */; };
+		A82DAEC82C1F23DD00E18665 /* NotificationType.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82DAEC72C1F23DD00E18665 /* NotificationType.swift */; };
+		A82DAEC92C1F23DD00E18665 /* NotificationType.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82DAEC72C1F23DD00E18665 /* NotificationType.swift */; };
+		A82DAECA2C1F23DD00E18665 /* NotificationType.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82DAEC72C1F23DD00E18665 /* NotificationType.swift */; };
+		A82DAECC2C1F244B00E18665 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82DAECB2C1F244B00E18665 /* NotificationView.swift */; };
+		A82DAECD2C1F244B00E18665 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82DAECB2C1F244B00E18665 /* NotificationView.swift */; };
+		A82DAECE2C1F244B00E18665 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82DAECB2C1F244B00E18665 /* NotificationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -133,8 +139,10 @@
 		A82DAEA72C1EF7AF00E18665 /* View + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View + Extension.swift"; sourceTree = "<group>"; };
 		A82DAEB02C1EFAFA00E18665 /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
 		A82DAEB42C1F037A00E18665 /* CustomAlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAlertView.swift; sourceTree = "<group>"; };
-		A82DAEB92C1F038D00E18665 /* NotificationType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationType.swift; sourceTree = "<group>"; };
+		A82DAEB92C1F038D00E18665 /* AlertType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertType.swift; sourceTree = "<group>"; };
 		A82DAEC12C1F04E300E18665 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		A82DAEC72C1F23DD00E18665 /* NotificationType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationType.swift; sourceTree = "<group>"; };
+		A82DAECB2C1F244B00E18665 /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -300,7 +308,8 @@
 		A82DAE642C1C90E500E18665 /* Components */ = {
 			isa = PBXGroup;
 			children = (
-				A82DAEB82C1F037D00E18665 /* Notification */,
+				A82DAEC62C1F23CD00E18665 /* Notification View */,
+				A82DAEB82C1F037D00E18665 /* Alert View */,
 				A82DAE9F2C1DC4AF00E18665 /* Aurora View */,
 				A82DAE922C1CB0EB00E18665 /* Messages View */,
 				A82DAE652C1C90F800E18665 /* CustomButton.swift */,
@@ -382,13 +391,13 @@
 			path = Auth;
 			sourceTree = "<group>";
 		};
-		A82DAEB82C1F037D00E18665 /* Notification */ = {
+		A82DAEB82C1F037D00E18665 /* Alert View */ = {
 			isa = PBXGroup;
 			children = (
-				A82DAEB92C1F038D00E18665 /* NotificationType.swift */,
+				A82DAEB92C1F038D00E18665 /* AlertType.swift */,
 				A82DAEB42C1F037A00E18665 /* CustomAlertView.swift */,
 			);
-			path = Notification;
+			path = "Alert View";
 			sourceTree = "<group>";
 		};
 		A82DAEC52C1F144300E18665 /* UI Helpers */ = {
@@ -397,6 +406,15 @@
 				A82DAEA62C1EF7A700E18665 /* Extensions */,
 			);
 			path = "UI Helpers";
+			sourceTree = "<group>";
+		};
+		A82DAEC62C1F23CD00E18665 /* Notification View */ = {
+			isa = PBXGroup;
+			children = (
+				A82DAEC72C1F23DD00E18665 /* NotificationType.swift */,
+				A82DAECB2C1F244B00E18665 /* NotificationView.swift */,
+			);
+			path = "Notification View";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -554,15 +572,17 @@
 				A82DAE772C1C929600E18665 /* AuthViewModel.swift in Sources */,
 				A82DAE732C1C927E00E18665 /* LoginView.swift in Sources */,
 				A82DAE982C1CB1C500E18665 /* MessagesView.swift in Sources */,
+				A82DAEC82C1F23DD00E18665 /* NotificationType.swift in Sources */,
 				A82DAE842C1C9E0F00E18665 /* AuroraView.swift in Sources */,
 				A82DAE552C1C8C8100E18665 /* CircleAnimator.swift in Sources */,
 				A82DAEA82C1EF7AF00E18665 /* View + Extension.swift in Sources */,
 				A82DAE662C1C90F800E18665 /* CustomButton.swift in Sources */,
-				A82DAEBA2C1F038D00E18665 /* NotificationType.swift in Sources */,
+				A82DAEBA2C1F038D00E18665 /* AlertType.swift in Sources */,
 				A82DAE7C2C1C957200E18665 /* CollectionNameKeys.swift in Sources */,
 				A82DAEC22C1F04E300E18665 /* Constant.swift in Sources */,
 				A82DAE802C1C987C00E18665 /* Errors.swift in Sources */,
 				A82DAE882C1CA13A00E18665 /* UserModel.swift in Sources */,
+				A82DAECC2C1F244B00E18665 /* NotificationView.swift in Sources */,
 				A82DAE1D2C1C865B00E18665 /* MessageDemoApp.xcdatamodeld in Sources */,
 				A82DAEB12C1EFAFA00E18665 /* RegisterView.swift in Sources */,
 				A82DAE432C1C86BB00E18665 /* HomeView.swift in Sources */,
@@ -590,8 +610,10 @@
 				A82DAE852C1C9E0F00E18665 /* AuroraView.swift in Sources */,
 				A82DAE9D2C1DB8B800E18665 /* CustomBlurView.swift in Sources */,
 				A82DAEA12C1DC4BB00E18665 /* MovingCircle.swift in Sources */,
+				A82DAEC92C1F23DD00E18665 /* NotificationType.swift in Sources */,
 				A82DAE782C1C929600E18665 /* AuthViewModel.swift in Sources */,
-				A82DAEBB2C1F038D00E18665 /* NotificationType.swift in Sources */,
+				A82DAEBB2C1F038D00E18665 /* AlertType.swift in Sources */,
+				A82DAECD2C1F244B00E18665 /* NotificationView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -601,9 +623,10 @@
 			files = (
 				A82DAE9A2C1CB1C500E18665 /* MessagesView.swift in Sources */,
 				A82DAE792C1C929600E18665 /* AuthViewModel.swift in Sources */,
+				A82DAECE2C1F244B00E18665 /* NotificationView.swift in Sources */,
 				A82DAE752C1C927E00E18665 /* LoginView.swift in Sources */,
 				A82DAE8A2C1CA13A00E18665 /* UserModel.swift in Sources */,
-				A82DAEBC2C1F038D00E18665 /* NotificationType.swift in Sources */,
+				A82DAEBC2C1F038D00E18665 /* AlertType.swift in Sources */,
 				A82DAE9E2C1DB8B800E18665 /* CustomBlurView.swift in Sources */,
 				A82DAEA32C1DC4BB00E18665 /* AuroraColors.swift in Sources */,
 				A82DAEB72C1F037A00E18665 /* CustomAlertView.swift in Sources */,
@@ -613,6 +636,7 @@
 				A82DAE312C1C865B00E18665 /* MessageDemoAppUITests.swift in Sources */,
 				A82DAEA02C1DC4BB00E18665 /* MovingCircle.swift in Sources */,
 				A82DAE332C1C865B00E18665 /* MessageDemoAppUITestsLaunchTests.swift in Sources */,
+				A82DAECA2C1F23DD00E18665 /* NotificationType.swift in Sources */,
 				A82DAE822C1C987C00E18665 /* Errors.swift in Sources */,
 				A82DAE7E2C1C957200E18665 /* CollectionNameKeys.swift in Sources */,
 				A82DAEB32C1EFAFA00E18665 /* RegisterView.swift in Sources */,

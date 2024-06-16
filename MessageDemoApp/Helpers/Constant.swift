@@ -9,4 +9,5 @@ import SwiftUI
 
 class Constant {
     static let cornerRadius: CGFloat = 15
+    static let notificationDuration: Double = 3.0
 }
