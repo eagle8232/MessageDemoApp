@@ -51,6 +51,7 @@ struct HomeView: View {
         CustomButton(style: .circled(nil, Image(uiImage: .send)), blurStyle: .light) {
             sendMessage()
         }
+        .customAnimation(type: .bounce)
     }
     
     func sendMessage() {

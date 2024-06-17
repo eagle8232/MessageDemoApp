@@ -14,6 +14,12 @@ extension View {
         UIApplication.shared.sendAction(resign, to: nil, from: nil, for: nil)
     }
     
+    // MARK: - Animation
+    func customAnimation(type: CustomAnimationType) -> some View {
+        self.modifier(CustomAnimation(animationType: type))
+    }
+    
+    // MARK: - Notificaiton & Alert Views
     // Error Views
     
     /// - Showing error as a notification

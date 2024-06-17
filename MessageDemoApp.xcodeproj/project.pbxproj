@@ -85,6 +85,9 @@
 		A82DAECC2C1F244B00E18665 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82DAECB2C1F244B00E18665 /* NotificationView.swift */; };
 		A82DAECD2C1F244B00E18665 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82DAECB2C1F244B00E18665 /* NotificationView.swift */; };
 		A82DAECE2C1F244B00E18665 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82DAECB2C1F244B00E18665 /* NotificationView.swift */; };
+		A82DAED02C1F3D1A00E18665 /* CustomAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82DAECF2C1F3D1A00E18665 /* CustomAnimation.swift */; };
+		A82DAED12C1F3D1A00E18665 /* CustomAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82DAECF2C1F3D1A00E18665 /* CustomAnimation.swift */; };
+		A82DAED22C1F3D1A00E18665 /* CustomAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82DAECF2C1F3D1A00E18665 /* CustomAnimation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -143,6 +146,7 @@
 		A82DAEC12C1F04E300E18665 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 		A82DAEC72C1F23DD00E18665 /* NotificationType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationType.swift; sourceTree = "<group>"; };
 		A82DAECB2C1F244B00E18665 /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		A82DAECF2C1F3D1A00E18665 /* CustomAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAnimation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -404,6 +408,7 @@
 			isa = PBXGroup;
 			children = (
 				A82DAEA62C1EF7A700E18665 /* Extensions */,
+				A82DAECF2C1F3D1A00E18665 /* CustomAnimation.swift */,
 			);
 			path = "UI Helpers";
 			sourceTree = "<group>";
@@ -582,6 +587,7 @@
 				A82DAEC22C1F04E300E18665 /* Constant.swift in Sources */,
 				A82DAE802C1C987C00E18665 /* Errors.swift in Sources */,
 				A82DAE882C1CA13A00E18665 /* UserModel.swift in Sources */,
+				A82DAED02C1F3D1A00E18665 /* CustomAnimation.swift in Sources */,
 				A82DAECC2C1F244B00E18665 /* NotificationView.swift in Sources */,
 				A82DAE1D2C1C865B00E18665 /* MessageDemoApp.xcdatamodeld in Sources */,
 				A82DAEB12C1EFAFA00E18665 /* RegisterView.swift in Sources */,
@@ -600,6 +606,7 @@
 				A82DAEB62C1F037A00E18665 /* CustomAlertView.swift in Sources */,
 				A82DAEA22C1DC4BB00E18665 /* AuroraColors.swift in Sources */,
 				A82DAE7D2C1C957200E18665 /* CollectionNameKeys.swift in Sources */,
+				A82DAED12C1F3D1A00E18665 /* CustomAnimation.swift in Sources */,
 				A82DAE992C1CB1C500E18665 /* MessagesView.swift in Sources */,
 				A82DAEB22C1EFAFA00E18665 /* RegisterView.swift in Sources */,
 				A82DAE892C1CA13A00E18665 /* UserModel.swift in Sources */,
@@ -627,6 +634,7 @@
 				A82DAE752C1C927E00E18665 /* LoginView.swift in Sources */,
 				A82DAE8A2C1CA13A00E18665 /* UserModel.swift in Sources */,
 				A82DAEBC2C1F038D00E18665 /* AlertType.swift in Sources */,
+				A82DAED22C1F3D1A00E18665 /* CustomAnimation.swift in Sources */,
 				A82DAE9E2C1DB8B800E18665 /* CustomBlurView.swift in Sources */,
 				A82DAEA32C1DC4BB00E18665 /* AuroraColors.swift in Sources */,
 				A82DAEB72C1F037A00E18665 /* CustomAlertView.swift in Sources */,
